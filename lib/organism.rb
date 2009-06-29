@@ -29,7 +29,7 @@ class Organism
   # Step this organism.
   def step
     @next_step = @next_step.call
-    return nil
+    return self
   end
 
   def gather_resources
