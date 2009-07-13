@@ -21,4 +21,8 @@ class Genome
     # -- TODO -- Here we need logic on how to determine properties of the polymerase produced from features of the
     # genome. We'll base these features off of a reference sequence.
   end
+
+  def viable?
+    # -- TODO -- Need to check if this genome is within allowable bounds for life
+  end
 end

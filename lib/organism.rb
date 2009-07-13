@@ -6,23 +6,24 @@
 # genome using a DNA polymerase and, when finished making the copy, replicating into two new organims.
 #
 # The Organism class is implemented as a finite state machine with the following states:
-#   -- gather_resources:  The organism is obtaining what it needs for replication from the environment
 #   -- replicate_genome:  The organism is synthesizing a new genome using its existing genome as a template
-#   -- dividing:          Split into two, adding a new organism to the environment
+#   -- divide:            Split into two, adding a new organism to the environment
+#   -- dead:              No longer alive
 
 class Organism
   # Need a way to determine if this organism is still alive.
-  attr_accessor :alive
+  attr_reader :alive
 
   # Initialization consists of setting the genome, polymerase to use to replicate that genome, and passing in a
   # reference to the environment in which this organism lives.
-  def initialize(genome, polymerase, environment)
+  def initialize(genome, environment)
     @genome = genome
-    @polymerase = polymerase
+    @polymerase = @genome.translate_polymerase
     @environment = environment
-    @available_nucleotides = NucleotidePool.new
-    @next_step = method(:gather_resources).to_proc
     @alive = true
+
+    # We'll start by gathering resources:
+    @next_step = method(:gather_resources).to_proc
     return self
   end
 
@@ -32,16 +33,35 @@ class Organism
     return self
   end
 
-  def gather_resources
-    until @available_nucleotides.quantity >= @genome.length
-      if @environment.nucleotides_available?
-        @available_nucleotides.add_nucleotides(@environment.gather_nucleotides)
-      else
-        return false
-      end
+  # We're in the middle of creating a new genome. To do this, we allow the polymerase to add as many nucleotides as it
+  # will. Following that, we query the polymerase as to its current status, and proceed based on that information.
+  def replicate_genome
+    @polymerase.add_nucleotides
+    case @polymerase.status
+    when :polymerizing
+      return method(:replicate_genome).to_proc
+    when :done
+      return method(:divide).to_proc
     end
-    return true
   end
+
+  # Once our polymerase is done synthesizing the new genome, we can create a new organism with it. Before that, though,
+  # we must first check to see if the environment has available carrying capacity.
+  def divide
+    new_genome = @polymerase.new_finished_genome
+    if @environment.available_capacity?
+      if new_genome.viable?
+        new_organism = Organism.new(new_genome, @environment)
+        @environment.add_organism(new_organism)
+      end
+      @polymerase.restart
+      return method(:replicate_genome).to_proc
+    end
+    return method(:divide).to_proc
+  end
+
+
+
 
   # -- TODO -- Rewrite below
   def add_next_nucleotide
