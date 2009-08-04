@@ -22,8 +22,8 @@ class Organism
     @environment = environment
     @alive = true
 
-    # We'll start by gathering resources:
-    @next_step = method(:gather_resources).to_proc
+    # We'll start with replicating the genome:
+    @next_step = method(:replicate_genome).to_proc
     return self
   end
 
@@ -96,3 +96,5 @@ class Organism
     @environment.return_nucleotides_from(self.genome)
   end
 end
+
+# vim:sw=2 ts=2 tw=120:wrap

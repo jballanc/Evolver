@@ -26,3 +26,5 @@ class Genome
     # -- TODO -- Need to check if this genome is within allowable bounds for life
   end
 end
+
+# vim:sw=2 ts=2 tw=120:wrap

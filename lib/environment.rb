@@ -9,37 +9,60 @@
 require 'struct'
 
 # The GenomeForEnvironment class is used to seed the starting population of the environment.
-GenomeForEnvironment = Struct.new(
-  :genome_sequence,       # The template sequence to base the genomes of the generated organisms off of.
-  :mutation_frequency,    # The frequency, per nucleotide, of a random mutation during organism generation.
+GenomeForSpecies = Struct.new(
+  :genome,       # The template sequence to base the genomes of the generated organisms off of.
   :population_frequency   # The frequency of organims with this genome in the starting population.
 )
 
 class Environment
-  # The Environment must be initialized with the size of the initial population, the number of nucleotides available in
-  # the environment, the temperature of the simulation (in units of H-bond energy), and an array of structs describing
-  # the genomes to be use in creating the initial organisms.
-  def initialize(starting_population, max_population, temperature, *genomes_for_environment)
+  # The _Environment_ must be initialized with the size of the initial population, the temperature of the simulation
+  # (in units of h-bond energy), and an array of structs describing the genomes to be use in creating the initial
+  # organisms.
+  def initialize(temperature, max_population, starting_population, *genomes_for_environment)
+    # the population frequency of all the genomes must add to 1
+    unless genomes_for_environment.inject(0){|total, freq| total + freq} == 1
+      raise argumenterror, "population frequencies of genomes must total 1"
+    end
 
-  # Populates the environment with organisms based on the template genome set during initialization
-  def populate
-    @organisms = (0..starting_population).collect {
-      # -- TODO -- Need to initialize organisms with genomes and polymerases. We should just generate the polymerase
-      # from the genome using the genome's _translate_polymerase_ function. The question is, how do we decide the genome
-      # to start with? and how do we introduce variability in the polymerase directionality?
-    }
+    if starting_population > max_population
+      raise argumenterror, "the starting population must be less than the maximum population"
+    end
+
+    @max_population
+    @temperature = temperature
+    @organisms = []
+    genomes_for_environment.each do |genome_for_species|
+      (starting_population / genome_for_species.population_frequency).round.times do
+        @organisms << Organism.new(genome_for_species.genome, self)
+      end
+    end
   end
 
-  def available_capacity?
-    @current_population < @max_population
+  # Runs the environment for _max_iterations_ rounds (default is 1000).
+  def run(max_iterations=1000)
+    iteration = 0
+    while iteration < max_iterations
+      step
+    end
+  end
+
+  # Each step of the environment involves three phases:
+  #   1. Step each organism in the environment
+  #   2. Randomly cull organisms to maintain population just below the _max_population_
+  #   3. Remove dead organisms from the environment
+  def step
+    @organisms.each(&:step)
   end
 
   def add_organism(organism)
-    if available_capacity?
+    if @current_population < @max_population
       @organisms << organism
+      return true
     else
-      raise RuntimeError, "Trying to add an organism to a full environment"
+      return false
     end
   end
 
 end
+
+# vim:sw=2 ts=2 tw=120:wrap

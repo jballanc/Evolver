@@ -23,10 +23,11 @@ class Polymerase
 
   # Returns the product genome, assuming it's already complete. If the genome is not finished, throws an error.
   def new_finished_genome
-    unless @status == :finished
-      raise RuntimeError, "Trying to retrieve an unfinished genome"
+    if @status == :finished
+      return @product
+    else
+      return nil
     end
-    return @product
   end
 
   # Once we're done, and we've retrieved the new genome, we can start again.
@@ -35,3 +36,5 @@ class Polymerase
     @status = :polymerizing
   end
 end
+
+# vim:sw=2 ts=2 tw=120:wrap
