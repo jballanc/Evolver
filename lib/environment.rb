@@ -46,12 +46,17 @@ class Environment
     end
   end
 
-  # Each step of the environment involves three phases:
-  #   1. Step each organism in the environment
-  #   2. Randomly cull organisms to maintain population just below the _max_population_
-  #   3. Remove dead organisms from the environment
+  # Before stepping the environment, calculate the probability that any individual organism will die due to resource
+  # constraints. This is modeled as a agregate probability of $\frac{1}{(N-n)+1}$, evenly distributed over the organisms in
+  # the environment, where $N$ is the carrying capacity of the environment (_max_population_) and $n$ is the number of
+  # organisms currently in the environment. At each step, the organism will either die and return nil or step and return
+  # self. At the end of stepping each organism, we compact the array to remove dead organisms.
   def step
-    @organisms.each(&:step)
+    p_death = (1 / ((@max_population - @organisms.length) + 1)) / @organisms.length
+    @organisms.each do |organism|
+      organism.step(p_death)
+    end
+    @organisms.compact!
   end
 
   def add_organism(organism)
@@ -62,7 +67,6 @@ class Environment
       return false
     end
   end
-
 end
 
 # vim:sw=2 ts=2 tw=120:wrap

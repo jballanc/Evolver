@@ -8,19 +8,14 @@
 # The Organism class is implemented as a finite state machine with the following states:
 #   -- replicate_genome:  The organism is synthesizing a new genome using its existing genome as a template
 #   -- divide:            Split into two, adding a new organism to the environment
-#   -- dead:              No longer alive
 
 class Organism
-  # Need a way to determine if this organism is still alive.
-  attr_reader :alive
-
   # Initialization consists of setting the genome, polymerase to use to replicate that genome, and passing in a
   # reference to the environment in which this organism lives.
   def initialize(genome, environment)
     @genome = genome
     @polymerase = @genome.translate_polymerase
     @environment = environment
-    @alive = true
 
     # We'll start with replicating the genome:
     @next_step = method(:replicate_genome).to_proc
@@ -28,9 +23,14 @@ class Organism
   end
 
   # Step this organism.
-  def step
-    @next_step = @next_step.call
-    return self
+  def step(p_death = 0.0)
+    # There is a random chance that this organism will die due to resource constraints
+    if rand < p_death
+      return nil
+    else
+      @next_step = @next_step.call
+      return self
+    end
   end
 
   # We're in the middle of creating a new genome. To do this, we allow the polymerase to add as many nucleotides as it
@@ -58,42 +58,6 @@ class Organism
       return method(:replicate_genome).to_proc
     end
     return method(:divide).to_proc
-  end
-
-
-
-
-  # -- TODO -- Rewrite below
-  def add_next_nucleotide
-    if @genome.next_position_primed?
-      @polymerase.add_nucleotide_to(@genome,
-                                    :at_position => @genome.next_nucleotide_position,
-                                    :from_nucleotide_pool => self.available_nucleotides)
-    end
-  end
-
-  def synthesize_dna
-    until @genome.completed_duplication
-      self.add_next_nucleotide
-    end
-  end
-
-  def grow
-    self.synthesize_dna
-    Thread.new do
-      if self.gather_resources
-        self.grow
-      else
-        self.die
-      end
-    end
-    return Oranism.new(@genome.copy, @genome.polymerase_gene_product, self.environment)
-  end
-
-
-  def die
-    @dead = true
-    @environment.return_nucleotides_from(self.genome)
   end
 end
 
