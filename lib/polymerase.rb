@@ -2,8 +2,8 @@
 #
 # class Polymerase
 #
-# Abstract: The polymerase class describes a generic nucleotide polymerase. When asked to, it will add a number of new
-# nucleotides to a nascent genome based off of a template genome that is passed in during creation.
+# Abstract: The polymerase class describes a generic nucleotide polymerase. When asked to, it will add a number
+# of new nucleotides to a nascent genome based off of a template genome that is passed in during creation.
 
 class Polymerase
   # The current status of the polymerase:
@@ -16,9 +16,9 @@ class Polymerase
   end
 
   def add_nucleotides
-    # -- TODO -- Depending on the polymerase speed, add a number of nucleotides. Depending on directionality, if the
-    # nucleotide about to be added is not activated, then we should stop. There is also a random chance, depending on
-    # temperature of the environment, that we will incorporate an incorrect nucleotide.
+    # -- TODO -- Depending on the polymerase speed, add a number of nucleotides. Depending on directionality, if
+    # the nucleotide about to be added is not activated, then we should stop. There is also a random chance,
+    # depending on temperature of the environment, that we will incorporate an incorrect nucleotide.
   end
 
   # Returns the product genome, assuming it's already complete. If the genome is not finished, throws an error.
@@ -37,4 +37,4 @@ class Polymerase
   end
 end
 
-# vim:sw=2 ts=2 tw=120:wrap
+# vim:sw=2 ts=2 tw=114:wrap

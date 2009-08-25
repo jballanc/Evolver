@@ -3,8 +3,8 @@
 # class Environment
 #
 # Abstract: The Environment class "contains" the entire simulation. It is primarily responsible for tracking and
-# distributing energy and nucleotide resources to the component organisms, reclaiming those same resources from dead
-# organisms, and stepping each organism at each time step of the simulation.
+# distributing energy and nucleotide resources to the component organisms, reclaiming those same resources from
+# dead organisms, and stepping each organism at each time step of the simulation.
 
 require 'struct'
 
@@ -15,9 +15,9 @@ GenomeForSpecies = Struct.new(
 )
 
 class Environment
-  # The _Environment_ must be initialized with the size of the initial population, the temperature of the simulation
-  # (in units of h-bond energy), and an array of structs describing the genomes to be use in creating the initial
-  # organisms.
+  # The _Environment_ must be initialized with the size of the initial population, the temperature of the
+  # simulation (in units of h-bond energy), and an array of structs describing the genomes to be use in creating
+  # the initial organisms.
   def initialize(temperature, max_population, starting_population, *genomes_for_environment)
     # the population frequency of all the genomes must add to 1
     unless genomes_for_environment.inject(0){|total, freq| total + freq} == 1
@@ -46,11 +46,12 @@ class Environment
     end
   end
 
-  # Before stepping the environment, calculate the probability that any individual organism will die due to resource
-  # constraints. This is modeled as a agregate probability of $\frac{1}{(N-n)+1}$, evenly distributed over the organisms in
-  # the environment, where $N$ is the carrying capacity of the environment (_max_population_) and $n$ is the number of
-  # organisms currently in the environment. At each step, the organism will either die and return nil or step and return
-  # self. At the end of stepping each organism, we compact the array to remove dead organisms.
+  # Before stepping the environment, calculate the probability that any individual organism will die due to
+  # resource constraints. This is modeled as a agregate probability of $\frac{1}{(N-n)+1}$, evenly distributed
+  # over the organisms in the environment, where $N$ is the carrying capacity of the environment
+  # (_max_population_) and $n$ is the number of organisms currently in the environment. At each step, the
+  # organism will either die and return nil or step and return self. At the end of stepping each organism, we
+  # compact the array to remove dead organisms.
   def step
     p_death = (1 / ((@max_population - @organisms.length) + 1)) / @organisms.length
     @organisms.each do |organism|
@@ -69,4 +70,4 @@ class Environment
   end
 end
 
-# vim:sw=2 ts=2 tw=120:wrap
+# vim:sw=2 ts=2 tw=114:wrap

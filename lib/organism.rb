@@ -2,8 +2,8 @@
 #
 # class Organism
 #
-# Abstract: This is the base class for evolving organisms. It represents an abstract organism which is replicating its
-# genome using a DNA polymerase and, when finished making the copy, replicating into two new organims.
+# Abstract: This is the base class for evolving organisms. It represents an abstract organism which is replicating
+# its genome using a DNA polymerase and, when finished making the copy, replicating into two new organims.
 #
 # The Organism class is implemented as a finite state machine with the following states:
 #   -- replicate_genome:  The organism is synthesizing a new genome using its existing genome as a template
@@ -33,8 +33,9 @@ class Organism
     end
   end
 
-  # We're in the middle of creating a new genome. To do this, we allow the polymerase to add as many nucleotides as it
-  # will. Following that, we query the polymerase as to its current status, and proceed based on that information.
+  # We're in the middle of creating a new genome. To do this, we allow the polymerase to add as many nucleotides
+  # as it will. Following that, we query the polymerase as to its current status, and proceed based on that
+  # information.
   def replicate_genome
     @polymerase.add_nucleotides
     case @polymerase.status
@@ -45,8 +46,8 @@ class Organism
     end
   end
 
-  # Once our polymerase is done synthesizing the new genome, we can create a new organism with it. Before that, though,
-  # we must first check to see if the environment has available carrying capacity.
+  # Once our polymerase is done synthesizing the new genome, we can create a new organism with it. Before that,
+  # though, we must first check to see if the environment has available carrying capacity.
   def divide
     new_genome = @polymerase.new_finished_genome
     if @environment.available_capacity?
@@ -61,4 +62,4 @@ class Organism
   end
 end
 
-# vim:sw=2 ts=2 tw=120:wrap
+# vim:sw=2 ts=2 tw=114:wrap

@@ -2,14 +2,14 @@
 #
 # class Genome
 #
-# Abstract: The genome class comprises the genome of an organism. It is synthesized by a polymerase object, and when
-# synthesis is complete, it will generate a new polymerase object.
+# Abstract: The genome class comprises the genome of an organism. It is synthesized by a polymerase object, and
+# when synthesis is complete, it will generate a new polymerase object.
 
 class Genome
   def initialize
-    # As a simplification, we only store the sequence of one strand of the genome. This is valid because we are going to
-    # assume a standard leading-strand/lagging-strand replication fork, and we will also assume that the polymerase
-    # doing each is identical to the other.
+    # As a simplification, we only store the sequence of one strand of the genome. This is valid because we are
+    # going to assume a standard leading-strand/lagging-strand replication fork, and we will also assume that the
+    # polymerase doing each is identical to the other.
     @sequence = Array.new
   end
   
@@ -27,4 +27,4 @@ class Genome
   end
 end
 
-# vim:sw=2 ts=2 tw=120:wrap
+# vim:sw=2 ts=2 tw=114:wrap
