@@ -7,10 +7,10 @@
 #
 # The Organism class is implemented as a finite state machine with the following states:
 #   -- replicate_genome:  The organism is synthesizing a new genome using its existing genome as a template
-#   -- divide:            Split into two, adding a new organism to the environment
+#   -- divide:            Split into two, adding a new organism to the environment (if capacity for it exists)
 
 class Organism
-  # Initialization consists of setting the genome, polymerase to use to replicate that genome, and passing in a
+  # Initialization consists of setting the genome, translating a polymerase from that genome, and passing in a
   # reference to the environment in which this organism lives.
   def initialize(genome, environment)
     @genome = genome
@@ -22,7 +22,8 @@ class Organism
     return self
   end
 
-  # Step this organism.
+  # Step this organism. Every time we step an organism, there is a random chance that the organism will die, if
+  # that happens, then we return nil and the organism will be cleaned up by the environment.
   def step(p_death = 0.0)
     # There is a random chance that this organism will die due to resource constraints
     if rand < p_death
@@ -46,18 +47,25 @@ class Organism
     end
   end
 
-  # Once our polymerase is done synthesizing the new genome, we can create a new organism with it. Before that,
-  # though, we must first check to see if the environment has available carrying capacity.
+  # In order to divide, we first extract the new genome. If the new genome has too many errors, then we reset and
+  # try again. Then, we create a new organism from the genome and attempt to insert it into the environment. If
+  # there is no room, we keep trying until there is (or we are randomly killed). Once we've put the new organism
+  # in the environment, reset and start replicating again.
   def divide
-    new_genome = @polymerase.new_finished_genome
-    if @environment.available_capacity?
-      if new_genome.viable?
-        new_organism = Organism.new(new_genome, @environment)
-        @environment.add_organism(new_organism)
-      end
+    @new_genome ||= @polymerase.new_finished_genome
+    unless @new_genome
       @polymerase.restart
       return method(:replicate_genome).to_proc
     end
+    
+    @new_organism ||= Organism.new(@new_genome, @environment)
+    if @environment.add_organism(@new_organism)
+      @new_genome = nil
+      @new_organism = nil
+      @polymerase.restart
+      return method(:replicate_genome).to_proc
+    end
+
     return method(:divide).to_proc
   end
 end
