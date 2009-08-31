@@ -21,11 +21,20 @@ class Polymerase
   end
 
   def add_nucleotides
+    if @genome.added_nucleotides > @genome.length
+      @status = :finished
+      return
+    end
     # -- TODO -- Depending on the polymerase speed, add a number of nucleotides. Depending on directionality, if
     # the nucleotide about to be added is not activated, then we should stop. There is also a random chance,
     # depending on temperature of the environment, that we will incorporate an incorrect nucleotide.
     @rate.times do
-      
+      if #probability that nucleotide is deactivated
+        next if @directionality == :forward
+        return if @directionality == :reverse
+      else
+        @genome.add_nucleotide(#probability that wrong nucleotide is incorporated)
+      end
     end
   end
 

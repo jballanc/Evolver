@@ -6,7 +6,7 @@
 # when synthesis is complete, it will generate a new polymerase object.
 
 class Genome
-  attr_reader :added_nucleotides, :errors
+  attr_reader :length, :added_nucleotides, :errors
 
   def initialize(length, polymerase_fraction, polymerase_rate, directionality)
     @length = length
@@ -19,6 +19,8 @@ class Genome
 
   def initialize_copy(orig)
     # From errors and polymerase_rate of orig, determine polymerase_rate
+    polymerase_errors = @errors * @polymerase_fraction * # some fraction of errors will be silent
+    
     @added_nucleotides = 0
     @errors = 0
   end
