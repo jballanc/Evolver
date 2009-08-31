@@ -14,8 +14,8 @@ class Organism
   # reference to the environment in which this organism lives.
   def initialize(genome, environment)
     @genome = genome
-    @polymerase = @genome.translate_polymerase
     @environment = environment
+    @polymerase = @genome.translate_polymerase(@environment.temperature)
 
     # We'll start with replicating the genome:
     @next_step = method(:replicate_genome).to_proc
@@ -42,7 +42,7 @@ class Organism
     case @polymerase.status
     when :polymerizing
       return method(:replicate_genome).to_proc
-    when :done
+    when :finished
       return method(:divide).to_proc
     end
   end
@@ -67,6 +67,12 @@ class Organism
     end
 
     return method(:divide).to_proc
+  end
+
+  # The _report_ method returns details about the organism's +genome+ and +polymerase+
+  def report
+    { :genome => @genome.report,
+      :polymerase => @polymerase.report }
   end
 end
 

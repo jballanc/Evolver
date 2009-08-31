@@ -6,24 +6,40 @@
 # when synthesis is complete, it will generate a new polymerase object.
 
 class Genome
-  def initialize
-    # As a simplification, we only store the sequence of one strand of the genome. This is valid because we are
-    # going to assume a standard leading-strand/lagging-strand replication fork, and we will also assume that the
-    # polymerase doing each is identical to the other.
-    @sequence = Array.new
+  attr_reader :added_nucleotides, :errors
+
+  def initialize(length, polymerase_fraction, polymerase_rate, directionality)
+    @length = length
+    @polymerase_fraction = polymerase_fraction
+    @polymerase_rate = polymerase_rate
+    @directionality = directionality
+    @added_nucleotides = 0
+    @errors = 0
+  end
+
+  def initialize_copy(orig)
+    # From errors and polymerase_rate of orig, determine polymerase_rate
+    @added_nucleotides = 0
+    @errors = 0
+  end
+
+  def reset
+    @added_nucleotides = 0
+    @errors = 0
   end
   
-  def synthesize_nucleotide(nucleotide)
-    @sequence.push nucleotide
+  def add_nucleotide(correct?)
+    @errors += 1 unless correct?
+    @added_nucleotides += 1
   end
-  
-  def translate_polymerase
-    # -- TODO -- Here we need logic on how to determine properties of the polymerase produced from features of the
-    # genome. We'll base these features off of a reference sequence.
+
+  def translate_polymerase(temperature)
+    Polymerase.new(self, @directionality, @polymerase_rate, temperature)
   end
 
   def viable?
     # -- TODO -- Need to check if this genome is within allowable bounds for life
+    # Proteins can tolerate ~34% AA errors...assume compact genome, correct for nucleotide -> AA errors
   end
 end
 

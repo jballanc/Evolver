@@ -15,6 +15,8 @@ GenomeForSpecies = Struct.new(
 )
 
 class Environment
+  attr_reader :temperature
+
   # The _Environment_ must be initialized with the size of the initial population, the temperature of the
   # simulation (in units of h-bond energy), and an array of structs describing the genomes to be use in creating
   # the initial organisms.
@@ -60,6 +62,9 @@ class Environment
     @organisms.compact!
   end
 
+  # The _add_organism_ method attempts to add an organism to the environment. If there adequate capacity, the
+  # organism is added and the method returns +true+. If the environment is currently full, then nothing is done
+  # and the method returns +false+.
   def add_organism(organism)
     if @organisms.length < @max_population
       @organisms << organism
@@ -67,6 +72,15 @@ class Environment
     else
       return false
     end
+  end
+
+  # The _report_ method returns a hash containing the values for this environment as well as the results of
+  # iterating over the @organisms array and calling each organism's _report_ method in turn.
+  def report
+    { :temperature => @temperature,
+      :max_population => @max_population,
+      :current_population => @organisms.length,
+      :organisms => @organisms.collect{|organism| organism.report} }
   end
 end
 

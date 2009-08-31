@@ -2,37 +2,46 @@
 #
 # class Polymerase
 #
-# Abstract: The polymerase class describes a generic nucleotide polymerase. When asked to, it will add a number
-# of new nucleotides to a nascent genome based off of a template genome that is passed in during creation.
+# Abstract: The polymerase class describes a generic nucleotide polymerase. When asked to, it will add a number of
+# new nucleotides to the nascient genome. The directionality of insertion depends on the directionality that the
+# polymerase was initialized with. Each polymerase will always be in one of two states:
+#   -- polymerizing:  The genome is not yet finished.
+#   -- finished:      The genome has been completely replicated.
 
 class Polymerase
   # The current status of the polymerase:
   attr_reader :status
 
-  def initialize
-    @template = template
-    @product = Genome.new
+  def initialize(genome, directionality, rate, temperature)
     @status = :polymerizing
+    @genome = genome
+    @directionality = directionality
+    @rate = rate
+    @temperature = temperature
   end
 
   def add_nucleotides
     # -- TODO -- Depending on the polymerase speed, add a number of nucleotides. Depending on directionality, if
     # the nucleotide about to be added is not activated, then we should stop. There is also a random chance,
     # depending on temperature of the environment, that we will incorporate an incorrect nucleotide.
+    @rate.times do
+      
+    end
   end
 
-  # Returns the product genome, assuming it's already complete. If the genome is not finished, throws an error.
+  # If we're done polymerizing and the genome that we've produced is viable, then return the genome. Otherwise,
+  # return +nil+
   def new_finished_genome
-    if @status == :finished
-      return @product
+    if @status == :finished && @genome.viable?
+      @genome
     else
       return nil
     end
   end
 
-  # Once we're done, and we've retrieved the new genome, we can start again.
-  def restart
-    @product = Genome.new
+  # Resets the polymerase back to starting with a fresh genome to start polymerizing anew.
+  def reset
+    @genome.reset
     @status = :polymerizing
   end
 end
