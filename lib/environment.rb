@@ -28,8 +28,8 @@ class Environment
       raise argumenterror, "the starting population must be less than the maximum population"
     end
 
-    @max_population
     @temperature = temperature
+    @max_population = max_population
     @organisms = []
     genomes_for_environment.each do |genome_for_species|
       (starting_population / genome_for_species.population_frequency).round.times do
@@ -61,7 +61,7 @@ class Environment
   end
 
   def add_organism(organism)
-    if @current_population < @max_population
+    if @organisms.length < @max_population
       @organisms << organism
       return true
     else
