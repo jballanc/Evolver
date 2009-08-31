@@ -54,7 +54,7 @@ class Organism
   def divide
     @new_genome ||= @polymerase.new_finished_genome
     unless @new_genome
-      @polymerase.restart
+      @polymerase.reset
       return method(:replicate_genome).to_proc
     end
     
@@ -62,7 +62,7 @@ class Organism
     if @environment.add_organism(@new_organism)
       @new_genome = nil
       @new_organism = nil
-      @polymerase.restart
+      @polymerase.reset
       return method(:replicate_genome).to_proc
     end
 
