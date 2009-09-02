@@ -30,7 +30,7 @@ class Polymerase
         next if @directionality == :forward
         return if @directionality == :reverse
       else
-        @genome.add_nucleotide(rand < Math::E**(-1 / @temperature))
+        @genome.add_nucleotide(rand < (Math::E**(-1 / @temperature) * (@rate / MAX_POLY_RATE)))
       end
     end
   end

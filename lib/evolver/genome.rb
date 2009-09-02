@@ -4,9 +4,6 @@
 #
 # Abstract: The genome class comprises the genome of an organism. It is synthesized by a polymerase object, and
 # when synthesis is complete, it will generate a new polymerase object.
-MAX_TOL_MUT_RATE = 0.34
-MAX_POLY_RATE = 10
-MIN_POLY_RATE = 1
 
 class Genome
   attr_reader :length, :added_nucleotides, :errors

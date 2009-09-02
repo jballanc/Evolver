@@ -1,3 +1,4 @@
+require "evolver/constants"
 require "evolver/organism"
 require "evolver/environment"
 require "evolver/genome"
