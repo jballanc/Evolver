@@ -1,0 +1,157 @@
+---
+- :name: test1
+  :temperature: 0.043
+  :max_population: 10000
+  :starting_population: 10
+  :genomes:
+    - :length: 1000
+      :polymerase_rate: 1
+      :directionality: :forward
+      :freq: 1
+- :name: test2
+  :temperature: 0.043
+  :max_population: 10000
+  :starting_population: 10
+  :genomes:
+    - :length: 1000
+      :polymerase_rate: 2
+      :directionality: :forward
+      :freq: 1
+- :name: test3
+  :temperature: 0.043
+  :max_population: 10000
+  :starting_population: 10
+  :genomes:
+    - :length: 1000
+      :polymerase_rate: 3
+      :directionality: :forward
+      :freq: 1
+- :name: test4
+  :temperature: 0.043
+  :max_population: 10000
+  :starting_population: 10
+  :genomes:
+    - :length: 1000
+      :polymerase_rate: 4
+      :directionality: :forward
+      :freq: 1
+- :name: test5
+  :temperature: 0.043
+  :max_population: 10000
+  :starting_population: 10
+  :genomes:
+    - :length: 1000
+      :polymerase_rate: 5
+      :directionality: :forward
+      :freq: 1
+- :name: test6
+  :temperature: 0.043
+  :max_population: 10000
+  :starting_population: 10
+  :genomes:
+    - :length: 1000
+      :polymerase_rate: 1
+      :directionality: :reverse
+      :freq: 1
+- :name: test7
+  :temperature: 0.043
+  :max_population: 10000
+  :starting_population: 10
+  :genomes:
+    - :length: 1000
+      :polymerase_rate: 2
+      :directionality: :reverse
+      :freq: 1
+- :name: test8
+  :temperature: 0.043
+  :max_population: 10000
+  :starting_population: 10
+  :genomes:
+    - :length: 1000
+      :polymerase_rate: 3
+      :directionality: :reverse
+      :freq: 1
+- :name: test9
+  :temperature: 0.043
+  :max_population: 10000
+  :starting_population: 10
+  :genomes:
+    - :length: 1000
+      :polymerase_rate: 4
+      :directionality: :reverse
+      :freq: 1
+- :name: test10
+  :temperature: 0.043
+  :max_population: 10000
+  :starting_population: 10
+  :genomes:
+    - :length: 1000
+      :polymerase_rate: 5
+      :directionality: :reverse
+      :freq: 1
+- :name: test11
+  :temperature: 0.038
+  :max_population: 10000
+  :starting_population: 10
+  :genomes:
+    - :length: 1000
+      :polymerase_rate: 2
+      :directionality: :forward
+      :freq: 0.5
+    - :length: 1000
+      :polymerase_rate: 2
+      :directionality: :reverse
+      :freq: 0.5
+- :name: test12
+  :temperature: 0.043
+  :max_population: 10000
+  :starting_population: 10
+  :genomes:
+    - :length: 1000
+      :polymerase_rate: 2
+      :directionality: :forward
+      :freq: 0.5
+    - :length: 1000
+      :polymerase_rate: 2
+      :directionality: :reverse
+      :freq: 0.5
+- :name: test13
+  :temperature: 0.048
+  :max_population: 10000
+  :starting_population: 10
+  :genomes:
+    - :length: 1000
+      :polymerase_rate: 2
+      :directionality: :forward
+      :freq: 0.5
+    - :length: 1000
+      :polymerase_rate: 2
+      :directionality: :reverse
+      :freq: 0.5
+- :name: test14
+  :temperature: 0.053
+  :max_population: 10000
+  :starting_population: 10
+  :genomes:
+    - :length: 1000
+      :polymerase_rate: 2
+      :directionality: :forward
+      :freq: 0.5
+    - :length: 1000
+      :polymerase_rate: 2
+      :directionality: :reverse
+      :freq: 0.5
+- :name: test15
+  :temperature: 0.058
+  :max_population: 10000
+  :starting_population: 10
+  :genomes:
+    - :length: 1000
+      :polymerase_rate: 2
+      :directionality: :forward
+      :freq: 0.5
+    - :length: 1000
+      :polymerase_rate: 2
+      :directionality: :reverse
+      :freq: 0.5
+...

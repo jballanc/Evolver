@@ -1,4 +1,4 @@
-#!/usr/bin/ruby
+#!/usr/bin/env ruby19
 # 
 # Copyright (c) 2009 Joshua Ballanco
 #
@@ -7,6 +7,7 @@
 $LOAD_PATH << File.join(File.dirname(__FILE__), '..', 'lib')
 
 require "optparse"
+require "yaml"
 require "evolver"
 
 options = {}
@@ -23,43 +24,100 @@ OptionParser.new do |opts|
     options[:report_frequency] = freq.to_i
   end
 
-  options[:report_values] = []
+  options[:snapshot_frequency] = 0
+  opts.on("-s [frequency]", "Snapshot frequency (number of iterations to run before dumping the environment)") do |freq|
+    options[:snapshot_frequency] = freq.to_i
+  end
+
+  options[:threads] = 1
+  opts.on("-j [threads]", "Number of concurrent threads to run for calculations") do |thr|
+    options[:threads] = thr.to_i
+  end
+
+  options[:report_values] = %W( forward_num reverse_num forward_rate reverse_rate organism_num organism_rate )
   opts.on("-r [Value1,Value2,Value3]", Array, "Values to report") do |values|
     options[:report_values] = values
   end
 end.parse!
 
 def run(options, environment)
-  
+  genomes_for_env = environment[:genomes].collect do |genome|
+    GenomeForSpecies.new(Genome.new(genome[:length],
+                                    genome[:polymerase_rate],
+                                    genome[:directionality]),
+                         genome[:freq])
+  end
+  env = Environment.new(environment[:temperature],
+                        environment[:max_population],
+                        environment[:starting_population],
+                        *genomes_for_env)
+
+  env.use_threads(options[:threads]) if options[:threads] > 1
+  # Run the simulation for the report frequency, then output the requested values. Keep doing this until we've hit
+  # the max iterations limit.
+  @iterations_complete = 0
+  report(environment[:name], env, true, *options[:report_values])
+  while (@iterations_complete + options[:report_frequency] < options[:iterations])
+    env.run(options[:report_frequency])
+    report(environment[:name], env, false, *options[:report_values])
+    if options[:snapshot_frequency] > 0 && @iterations_complete % options[:snapshot_frequency] == 0
+      File.open(environment[:name] + '_snapshots.txt', 'a') do |snapshotfile|
+        snapshotfile << YAML::dump(env.report) << "...\n"
+      end
+    end
+    @iterations_complete += options[:report_frequency]
+  end
+  env.run(options[:iterations] - @iterations_complete)
+  report(environment[:name], env, false, *options[:report_values])
 end
 
-def parse_environment_file(env_file)
-  
+def report(name, env, print_header, *report_values)
+  File.open(name + '_out.csv', 'a') do |outfile|
+    outfile << report_values.join(',') << "\n" if print_header
+    env_report = env.report
+    values = report_values.collect do |value|
+      send("report_#{value}".to_sym, env_report)
+    end
+    outfile << values.join(',') << "\n"
+  end
 end
 
-def report_forward_num(env)
-  
+def report_forward_num(env_report)
+  env_report[:organisms].inject(0) do |total, org|
+    total + (org[:polymerase][:directionality] == :forward ? 1 : 0)
+  end
 end
 
-def report_reverse_num(env)
-  
+def report_reverse_num(env_report)
+  env_report[:organisms].inject(0) do |total, org|
+    total + (org[:polymerase][:directionality] == :reverse ? 1 : 0)
+  end
 end
 
-def report_forward_rate(env)
-  
+def report_forward_rate(env_report)
+  env_report[:organisms].inject(0.0) do |total, org|
+    total + (org[:polymerase][:directionality] == :forward ? org[:polymerase][:rate] : 0)
+  end / report_forward_num(env_report)
 end
 
-def report_reverse_rate(env)
-  
+def report_reverse_rate(env_report)
+  env_report[:organisms].inject(0.0) do |total, org|
+    total + (org[:polymerase][:directionality] == :reverse ? org[:polymerase][:rate] : 0)
+  end / report_reverse_num(env_report)
 end
 
-def report_organism_num(env)
-
+def report_organism_num(env_report)
+  env_report[:current_population]
 end
 
-def report_organism_rate(env)
-  
+def report_organism_rate(env_report)
+  env_report[:organisms].inject(0.0) do |total, org|
+    total + org[:polymerase][:rate]
+  end / env_report[:current_population]
 end
 
-
+*environments = YAML::load_file(ARGV[0])
+environments.each do |environment|
+  run(options, environment)
+end
 # vim:sw=2 ts=2 tw=114:wrap ft=ruby

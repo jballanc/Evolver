@@ -43,6 +43,11 @@ class Environment
     iterations.times { step }
   end
 
+  # Set the number of threads to use, if we want to run the simulation threaded.
+  def use_threads(num_threads)
+    @num_threads = num_threads
+  end
+
   # Before stepping the environment, calculate the probability that any individual organism will die due to
   # resource constraints. This is modeled as a agregate probability of $\frac{1}{(N-n)+1}$, evenly distributed
   # over the organisms in the environment, where $N$ is the carrying capacity of the environment
@@ -51,8 +56,22 @@ class Environment
   # compact the array to remove dead organisms.
   def step
     p_death = (1.0 / ((@max_population - @organisms.length) + 1)) / @organisms.length
-    @organisms.each do |organism|
-      organism = organism.step(p_death)
+    if (@num_threads && @num_threads > 1)
+      if RUBY_ENGINE == 'macruby'
+        dispatch_group = Dispatch::Group.new
+        @organisms.each do |organism|
+          dispatch_group.dispatch(Dispatch::Queue.concurrent(:high)) { organism.step(p_death) }
+        end
+        dispatch_group.wait
+      else
+        @organisms.threadify(@num_threads) do |organism|
+          organism = organism.step(p_death)
+        end
+      end
+    else
+      @organisms.each do |organism|
+        organism = organism.step(p_death)
+      end
     end
     @organisms.compact!
   end

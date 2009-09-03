@@ -16,6 +16,9 @@ class Polymerase
     @status = :polymerizing
     @genome = genome
     @directionality = directionality
+    unless (@directionality == :forward || @directionality == :reverse)
+      raise ArgumentError, "directionality must be :forward or :reverse"
+    end
     @rate = rate
     @temperature = temperature
   end
