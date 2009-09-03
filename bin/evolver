@@ -1,0 +1,65 @@
+#!/usr/bin/ruby
+# 
+# Copyright (c) 2009 Joshua Ballanco
+#
+# evolver - This is the command line utility to manipulate the Evolver toy model.
+
+$LOAD_PATH << File.join(File.dirname(__FILE__), '..', 'lib')
+
+require "optparse"
+require "evolver"
+
+options = {}
+OptionParser.new do |opts|
+  opts.banner = "Usage: evolver [options] <environment file>.yml"
+
+  options[:iterations] = 1000
+  opts.on("-n [iterations]", "Number of iterations to run per environment") do |iter|
+    options[:iterations] = iter.to_i
+  end
+
+  options[:report_frequency] = 10
+  opts.on("-f [frequency]", "Report frequency (number of iterations to run before reporting)") do |freq|
+    options[:report_frequency] = freq.to_i
+  end
+
+  options[:report_values] = []
+  opts.on("-r [Value1,Value2,Value3]", Array, "Values to report") do |values|
+    options[:report_values] = values
+  end
+end.parse!
+
+def run(options, environment)
+  
+end
+
+def parse_environment_file(env_file)
+  
+end
+
+def report_forward_num(env)
+  
+end
+
+def report_reverse_num(env)
+  
+end
+
+def report_forward_rate(env)
+  
+end
+
+def report_reverse_rate(env)
+  
+end
+
+def report_organism_num(env)
+
+end
+
+def report_organism_rate(env)
+  
+end
+
+
+# vim:sw=2 ts=2 tw=114:wrap ft=ruby
