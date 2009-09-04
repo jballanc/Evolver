@@ -1,7 +1,7 @@
 - :name: cluster_test_10x_37c
   :temperature: 0.1233
   :max_population: 100000
-  :starting_population: 10
+  :starting_population: 1000
   :genomes:
     - :length: 100000
       :polymerase_rate: 3

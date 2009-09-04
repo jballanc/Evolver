@@ -57,25 +57,21 @@ class Environment
   # organism will either die and return nil or step and return self. At the end of stepping each organism, we
   # compact the array to remove dead organisms.
   def step
-    p_death = (1.0 / ((@max_population - @organisms.length) + 1)) / @organisms.length
     if (@num_threads && @num_threads > 1)
-      if RUBY_ENGINE == 'macruby'
-        dispatch_group = Dispatch::Group.new
-        @organisms.each do |organism|
-          dispatch_group.dispatch(Dispatch::Queue.concurrent(:high)) { organism.step(p_death) }
-        end
-        dispatch_group.wait
-      else
-        @organisms.threadify(@num_threads) do |organism|
-          organism = organism.step(p_death)
-        end
+      @organisms.threadify(@num_threads) do |organism|
+        organism.step
       end
     else
       @organisms.each do |organism|
-        organism = organism.step(p_death)
+        organism.step
       end
     end
-    @organisms.compact!
+
+    # This is the probability that 1 organism will die:
+    death_expect = 1.0 / ((@max_population - @organisms.length) + 1)
+    if rand < death_expect
+      @organisms.delete_at(rand(@organisms.length))
+    end
   end
 
   # The _add_organism_ method attempts to add an organism to the environment. If there adequate capacity, the

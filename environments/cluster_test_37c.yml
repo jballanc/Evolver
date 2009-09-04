@@ -1,45 +1,45 @@
 - :name: cluster_test_37c
   :temperature: 0.1233
   :max_population: 10000
-  :starting_population: 10
+  :starting_population: 100
   :genomes:
-    - :length: 100000
+    - :length: 10000
       :polymerase_rate: 3
       :directionality: :forward
       :freq: 0.1
-    - :length: 100000
+    - :length: 10000
       :polymerase_rate: 4
       :directionality: :forward
       :freq: 0.1
-    - :length: 100000
+    - :length: 10000
       :polymerase_rate: 5
       :directionality: :forward
       :freq: 0.1
-    - :length: 100000
+    - :length: 10000
       :polymerase_rate: 6
       :directionality: :forward
       :freq: 0.1
-    - :length: 100000
+    - :length: 10000
       :polymerase_rate: 7
       :directionality: :forward
       :freq: 0.1
-    - :length: 100000
+    - :length: 10000
       :polymerase_rate: 3
       :directionality: :reverse
       :freq: 0.1
-    - :length: 100000
+    - :length: 10000
       :polymerase_rate: 4
       :directionality: :reverse
       :freq: 0.1
-    - :length: 100000
+    - :length: 10000
       :polymerase_rate: 5
       :directionality: :reverse
       :freq: 0.1
-    - :length: 100000
+    - :length: 10000
       :polymerase_rate: 6
       :directionality: :reverse
       :freq: 0.1
-    - :length: 100000
+    - :length: 10000
       :polymerase_rate: 7
       :directionality: :reverse
       :freq: 0.1

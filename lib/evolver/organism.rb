@@ -24,14 +24,9 @@ class Organism
 
   # Step this organism. Every time we step an organism, there is a random chance that the organism will die, if
   # that happens, then we return nil and the organism will be cleaned up by the environment.
-  def step(p_death = 0.0)
-    # There is a random chance that this organism will die due to resource constraints
-    if rand < p_death
-      return nil
-    else
-      @next_step = @next_step.call
-      return self
-    end
+  def step
+    @next_step = @next_step.call
+    return self
   end
 
   # We're in the middle of creating a new genome. To do this, we allow the polymerase to add as many nucleotides

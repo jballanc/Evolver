@@ -1,5 +1,5 @@
-- :name: cluster_test_400c
-  :temperature: 0.268
+- :name: cluster_test_800c
+  :temperature: 0.427
   :max_population: 10000
   :starting_population: 100
   :genomes:

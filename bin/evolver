@@ -116,7 +116,7 @@ def report_organism_rate(env_report)
   end / env_report[:current_population]
 end
 
-*environments = YAML::load_file(ARGV[0])
+environments = YAML::load_file(ARGV[0])
 environments.each do |environment|
   run(options, environment)
 end
