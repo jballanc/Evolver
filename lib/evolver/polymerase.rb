@@ -29,7 +29,7 @@ class Polymerase
       return
     end
     @rate.times do
-      if (rand < Math::E**(-1 / @temperature))
+      if (rand < (Math::E**(-1 / @temperature) * (@rate / MAX_POLY_RATE)))
         next if @directionality == :forward
         return if @directionality == :reverse
       else

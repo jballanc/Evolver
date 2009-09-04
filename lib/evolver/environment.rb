@@ -20,7 +20,9 @@ class Environment
   # the initial organisms.
   def initialize(temperature, max_population, starting_population, *genomes_for_environment)
     # the population frequency of all the genomes must add to 1
-    unless genomes_for_environment.inject(0){|total, gfe| total + gfe.population_frequency} == 1
+    unless genomes_for_environment.inject(0.0){|total, gfe| BigDecimal(
+                                                            String(
+                                                                total + gfe.population_frequency))} == 1
       raise ArgumentError, "population frequencies of genomes must total 1"
     end
 
