@@ -32,6 +32,7 @@ class Genome
     else
       @polymerase_rate += change_in_rate
     end 
+    raise RuntimeError, "Polymerase Rate out of Bounds" if (@polymerase_rate > MAX_POLY_RATE || @polymerase_rate < MIN_POLY_RATE)
 
     self.reset
   end
