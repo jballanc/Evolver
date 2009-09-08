@@ -1,0 +1,7860 @@
+--- 
+:temperature: 0.427
+:max_population: 100
+:current_population: 95
+:organisms: 
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 49
+    :errors: 4
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 49
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 4
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 49
+    :errors: 6
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 49
+    :errors: 5
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 49
+    :errors: 4
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 9
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 48
+    :errors: 4
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 0
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 4
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 49
+    :errors: 5
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 4
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 0
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 48
+    :errors: 0
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 49
+    :errors: 4
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 0
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 46
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 4
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 0
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 48
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 48
+    :errors: 5
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 47
+    :errors: 4
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 43
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 0
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 49
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 0
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 0
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 45
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 47
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 48
+    :errors: 6
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 46
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 49
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 49
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 6
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 7
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 4
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 46
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 6
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 7
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+...
+--- 
+:temperature: 0.427
+:max_population: 100
+:current_population: 99
+:organisms: 
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 765
+    :errors: 37
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 720
+    :errors: 29
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 746
+    :errors: 46
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 150
+    :errors: 5
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 4
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 120
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 4
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 68
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 4
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 503
+    :errors: 25
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 936
+    :errors: 45
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 999
+    :errors: 67
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 311
+    :errors: 15
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 4
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 385
+    :errors: 26
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 297
+    :errors: 16
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 718
+    :errors: 35
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 124
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 4
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 480
+    :errors: 25
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 83
+    :errors: 5
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 567
+    :errors: 39
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 90
+    :errors: 5
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 60
+    :errors: 4
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 587
+    :errors: 12
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 4
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 693
+    :errors: 55
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 924
+    :errors: 45
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 531
+    :errors: 25
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 4
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 138
+    :errors: 9
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 82
+    :errors: 7
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 376
+    :errors: 15
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 4
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 693
+    :errors: 55
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 533
+    :errors: 37
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 260
+    :errors: 14
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 4
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 176
+    :errors: 4
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 4
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 256
+    :errors: 13
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 35
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 742
+    :errors: 44
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 873
+    :errors: 29
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 3
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 148
+    :errors: 13
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 314
+    :errors: 16
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 43
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 4
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 748
+    :errors: 55
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 706
+    :errors: 28
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 476
+    :errors: 28
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 972
+    :errors: 68
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 689
+    :errors: 46
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 140
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 620
+    :errors: 53
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 542
+    :errors: 30
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 303
+    :errors: 11
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 659
+    :errors: 13
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 3
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 258
+    :errors: 11
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 629
+    :errors: 30
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 3
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 955
+    :errors: 47
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 126
+    :errors: 6
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 250
+    :errors: 15
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 616
+    :errors: 53
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 98
+    :errors: 8
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 652
+    :errors: 28
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 4
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 788
+    :errors: 34
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 443
+    :errors: 10
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 3
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 584
+    :errors: 26
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 4
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 945
+    :errors: 58
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 643
+    :errors: 29
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 890
+    :errors: 65
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 878
+    :errors: 67
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 677
+    :errors: 36
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 777
+    :errors: 55
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 521
+    :errors: 25
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 602
+    :errors: 32
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 573
+    :errors: 36
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 481
+    :errors: 30
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 713
+    :errors: 56
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 786
+    :errors: 62
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 586
+    :errors: 34
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 560
+    :errors: 41
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 644
+    :errors: 56
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 315
+    :errors: 12
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 4
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 568
+    :errors: 40
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 552
+    :errors: 51
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 267
+    :errors: 15
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 4
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 330
+    :errors: 19
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 319
+    :errors: 17
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 381
+    :errors: 26
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 305
+    :errors: 17
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 361
+    :errors: 30
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 255
+    :errors: 7
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 135
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 3
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 307
+    :errors: 16
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 156
+    :errors: 6
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 4
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 289
+    :errors: 20
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 222
+    :errors: 9
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 126
+    :errors: 4
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 4
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 172
+    :errors: 8
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 175
+    :errors: 7
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 110
+    :errors: 6
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 180
+    :errors: 18
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 89
+    :errors: 4
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 118
+    :errors: 13
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 105
+    :errors: 6
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 104
+    :errors: 9
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 78
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 47
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+...
+--- 
+:temperature: 0.427
+:max_population: 100
+:current_population: 96
+:organisms: 
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 161
+    :errors: 6
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 290
+    :errors: 17
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 313
+    :errors: 17
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 833
+    :errors: 68
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 993
+    :errors: 42
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 125
+    :errors: 10
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 175
+    :errors: 8
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 4
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 596
+    :errors: 25
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 563
+    :errors: 50
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 427
+    :errors: 36
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 437
+    :errors: 23
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 175
+    :errors: 13
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 302
+    :errors: 15
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 618
+    :errors: 45
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 605
+    :errors: 41
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 871
+    :errors: 78
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 153
+    :errors: 17
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 347
+    :errors: 40
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 869
+    :errors: 50
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 133
+    :errors: 7
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 918
+    :errors: 27
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 3
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 899
+    :errors: 25
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 3
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 1001
+    :errors: 73
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 516
+    :errors: 46
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 400
+    :errors: 23
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 192
+    :errors: 17
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 703
+    :errors: 69
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 476
+    :errors: 45
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 704
+    :errors: 45
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 697
+    :errors: 50
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 960
+    :errors: 40
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 4
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 614
+    :errors: 36
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 128
+    :errors: 10
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 95
+    :errors: 6
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 1010
+    :errors: 99
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 661
+    :errors: 43
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 865
+    :errors: 86
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 843
+    :errors: 72
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 581
+    :errors: 52
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 250
+    :errors: 15
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 605
+    :errors: 44
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 400
+    :errors: 32
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 882
+    :errors: 45
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 537
+    :errors: 37
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 291
+    :errors: 27
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 302
+    :errors: 23
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 285
+    :errors: 15
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 587
+    :errors: 62
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 421
+    :errors: 30
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 917
+    :errors: 51
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 41
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 992
+    :errors: 60
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 223
+    :errors: 21
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 31
+    :errors: 4
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 721
+    :errors: 63
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 771
+    :errors: 40
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 966
+    :errors: 83
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 929
+    :errors: 74
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 938
+    :errors: 88
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 799
+    :errors: 55
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 776
+    :errors: 50
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 754
+    :errors: 63
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 542
+    :errors: 34
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 794
+    :errors: 53
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 860
+    :errors: 72
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 426
+    :errors: 21
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 471
+    :errors: 30
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 556
+    :errors: 37
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 778
+    :errors: 80
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 643
+    :errors: 38
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 685
+    :errors: 74
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 509
+    :errors: 35
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 483
+    :errors: 32
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 536
+    :errors: 33
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 471
+    :errors: 37
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 354
+    :errors: 26
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 250
+    :errors: 10
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 485
+    :errors: 45
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 180
+    :errors: 7
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 4
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 340
+    :errors: 41
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 301
+    :errors: 19
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 267
+    :errors: 19
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 273
+    :errors: 21
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 331
+    :errors: 36
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 323
+    :errors: 34
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 136
+    :errors: 4
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 4
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 108
+    :errors: 5
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 4
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 258
+    :errors: 25
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 207
+    :errors: 14
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 206
+    :errors: 18
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 77
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 4
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 150
+    :errors: 9
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 180
+    :errors: 17
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 42
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 41
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 35
+    :errors: 4
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+...
+--- 
+:temperature: 0.427
+:max_population: 100
+:current_population: 95
+:organisms: 
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 54
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 685
+    :errors: 59
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 411
+    :errors: 31
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 668
+    :errors: 68
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 640
+    :errors: 47
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 83
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 0
+    :errors: 0
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 504
+    :errors: 47
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 916
+    :errors: 73
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 504
+    :errors: 36
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 0
+    :errors: 0
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 714
+    :errors: 59
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 536
+    :errors: 38
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 814
+    :errors: 54
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 437
+    :errors: 43
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 952
+    :errors: 106
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 864
+    :errors: 75
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 734
+    :errors: 50
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 97
+    :errors: 7
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 653
+    :errors: 59
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 994
+    :errors: 73
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 215
+    :errors: 15
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 440
+    :errors: 42
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 518
+    :errors: 61
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 849
+    :errors: 67
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 490
+    :errors: 32
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 375
+    :errors: 37
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 893
+    :errors: 71
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 885
+    :errors: 76
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 829
+    :errors: 59
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 804
+    :errors: 93
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 548
+    :errors: 45
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 609
+    :errors: 51
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 663
+    :errors: 55
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 421
+    :errors: 30
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 543
+    :errors: 44
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 344
+    :errors: 37
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 487
+    :errors: 44
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 637
+    :errors: 57
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 258
+    :errors: 26
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 412
+    :errors: 39
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 373
+    :errors: 35
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 293
+    :errors: 27
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 128
+    :errors: 9
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 206
+    :errors: 17
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 162
+    :errors: 11
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 736
+    :errors: 44
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 18
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 671
+    :errors: 44
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 1000
+    :errors: 84
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 860
+    :errors: 76
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 488
+    :errors: 26
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 778
+    :errors: 48
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 840
+    :errors: 69
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 553
+    :errors: 32
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 462
+    :errors: 18
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 700
+    :errors: 49
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 774
+    :errors: 60
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 661
+    :errors: 43
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 769
+    :errors: 71
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 466
+    :errors: 32
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 731
+    :errors: 69
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 649
+    :errors: 56
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 553
+    :errors: 43
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 623
+    :errors: 43
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 521
+    :errors: 40
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 578
+    :errors: 55
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 490
+    :errors: 36
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 470
+    :errors: 44
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 418
+    :errors: 28
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 488
+    :errors: 34
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 558
+    :errors: 56
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 471
+    :errors: 31
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 455
+    :errors: 45
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 383
+    :errors: 26
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 371
+    :errors: 29
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 391
+    :errors: 37
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 402
+    :errors: 33
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 341
+    :errors: 27
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 336
+    :errors: 20
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 368
+    :errors: 34
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 349
+    :errors: 32
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 286
+    :errors: 19
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 304
+    :errors: 33
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 264
+    :errors: 21
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 195
+    :errors: 8
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 191
+    :errors: 11
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 183
+    :errors: 14
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 153
+    :errors: 15
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 75
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 90
+    :errors: 5
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 68
+    :errors: 8
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 24
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 9
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 6
+    :errors: 0
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+...
+--- 
+:temperature: 0.427
+:max_population: 100
+:current_population: 99
+:organisms: 
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 977
+    :errors: 87
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 990
+    :errors: 105
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 223
+    :errors: 18
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 186
+    :errors: 10
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 662
+    :errors: 51
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 805
+    :errors: 78
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 267
+    :errors: 27
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 35
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 323
+    :errors: 26
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 458
+    :errors: 34
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 90
+    :errors: 9
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 125
+    :errors: 13
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 366
+    :errors: 32
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 204
+    :errors: 19
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 350
+    :errors: 37
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 140
+    :errors: 10
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 833
+    :errors: 85
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 634
+    :errors: 55
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 280
+    :errors: 13
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 1003
+    :errors: 72
+  :polymerase: 
+    :status: :finished
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 411
+    :errors: 48
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 609
+    :errors: 32
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 40
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 538
+    :errors: 52
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 996
+    :errors: 69
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 366
+    :errors: 25
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 25
+    :errors: 4
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 415
+    :errors: 18
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 752
+    :errors: 48
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 956
+    :errors: 66
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 1009
+    :errors: 77
+  :polymerase: 
+    :status: :finished
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 80
+    :errors: 5
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 901
+    :errors: 89
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 1003
+    :errors: 76
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 804
+    :errors: 78
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 538
+    :errors: 41
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 509
+    :errors: 36
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 500
+    :errors: 36
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 615
+    :errors: 66
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 402
+    :errors: 40
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 230
+    :errors: 17
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 129
+    :errors: 4
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 135
+    :errors: 8
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 120
+    :errors: 4
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 214
+    :errors: 24
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 808
+    :errors: 48
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 144
+    :errors: 14
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 81
+    :errors: 11
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 761
+    :errors: 41
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 117
+    :errors: 10
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 18
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 1001
+    :errors: 101
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 9
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 120
+    :errors: 13
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 914
+    :errors: 76
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 1003
+    :errors: 90
+  :polymerase: 
+    :status: :finished
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 881
+    :errors: 65
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 864
+    :errors: 70
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 812
+    :errors: 69
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 1003
+    :errors: 78
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 860
+    :errors: 70
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 877
+    :errors: 75
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 796
+    :errors: 58
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 619
+    :errors: 32
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 601
+    :errors: 43
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 763
+    :errors: 68
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 813
+    :errors: 72
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 558
+    :errors: 45
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 567
+    :errors: 48
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 335
+    :errors: 16
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 491
+    :errors: 36
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 411
+    :errors: 28
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 334
+    :errors: 24
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 467
+    :errors: 49
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 366
+    :errors: 22
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 289
+    :errors: 19
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 314
+    :errors: 31
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 350
+    :errors: 35
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 320
+    :errors: 30
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 267
+    :errors: 21
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 232
+    :errors: 16
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 208
+    :errors: 19
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 257
+    :errors: 21
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 198
+    :errors: 20
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 207
+    :errors: 13
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 207
+    :errors: 15
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 219
+    :errors: 27
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 160
+    :errors: 16
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 126
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 136
+    :errors: 17
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 148
+    :errors: 22
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 102
+    :errors: 6
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 88
+    :errors: 6
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 90
+    :errors: 8
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 54
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 39
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 32
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 24
+    :errors: 4
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 16
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+...
+--- 
+:temperature: 0.427
+:max_population: 100
+:current_population: 98
+:organisms: 
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 1004
+    :errors: 91
+  :polymerase: 
+    :status: :finished
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 277
+    :errors: 17
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 476
+    :errors: 39
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 456
+    :errors: 48
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 574
+    :errors: 50
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 179
+    :errors: 11
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 232
+    :errors: 19
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 495
+    :errors: 49
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 881
+    :errors: 91
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 365
+    :errors: 19
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 80
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 947
+    :errors: 80
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 771
+    :errors: 54
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 870
+    :errors: 88
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 928
+    :errors: 77
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 845
+    :errors: 66
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 980
+    :errors: 69
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 333
+    :errors: 22
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 547
+    :errors: 38
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 135
+    :errors: 11
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 204
+    :errors: 16
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 188
+    :errors: 16
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 152
+    :errors: 12
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 940
+    :errors: 64
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 268
+    :errors: 25
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 140
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 1009
+    :errors: 84
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 568
+    :errors: 42
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 129
+    :errors: 13
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 705
+    :errors: 54
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 517
+    :errors: 33
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 702
+    :errors: 62
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 929
+    :errors: 107
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 740
+    :errors: 81
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 422
+    :errors: 38
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 596
+    :errors: 50
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 872
+    :errors: 50
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 311
+    :errors: 21
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 480
+    :errors: 40
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 435
+    :errors: 40
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 327
+    :errors: 25
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 84
+    :errors: 10
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 192
+    :errors: 12
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 305
+    :errors: 28
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 285
+    :errors: 25
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 845
+    :errors: 48
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 229
+    :errors: 21
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 56
+    :errors: 5
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 937
+    :errors: 73
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 99
+    :errors: 8
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 976
+    :errors: 65
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 833
+    :errors: 48
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 36
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 916
+    :errors: 69
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 938
+    :errors: 90
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 823
+    :errors: 54
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 917
+    :errors: 66
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 980
+    :errors: 83
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 767
+    :errors: 63
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 872
+    :errors: 76
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 908
+    :errors: 87
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 831
+    :errors: 62
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 642
+    :errors: 52
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 637
+    :errors: 41
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 800
+    :errors: 69
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 790
+    :errors: 71
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 859
+    :errors: 86
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 832
+    :errors: 80
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 661
+    :errors: 57
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 596
+    :errors: 38
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 706
+    :errors: 74
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 673
+    :errors: 59
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 308
+    :errors: 19
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 529
+    :errors: 40
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 535
+    :errors: 43
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 419
+    :errors: 37
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 275
+    :errors: 21
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 369
+    :errors: 45
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 376
+    :errors: 34
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 322
+    :errors: 28
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 277
+    :errors: 25
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 262
+    :errors: 14
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 192
+    :errors: 9
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 143
+    :errors: 8
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 246
+    :errors: 16
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 267
+    :errors: 23
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 239
+    :errors: 23
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 176
+    :errors: 11
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 170
+    :errors: 17
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 179
+    :errors: 17
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 136
+    :errors: 13
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 103
+    :errors: 5
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 96
+    :errors: 12
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 77
+    :errors: 8
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 56
+    :errors: 7
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 55
+    :errors: 4
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 60
+    :errors: 5
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 49
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+...
+--- 
+:temperature: 0.427
+:max_population: 100
+:current_population: 99
+:organisms: 
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 915
+    :errors: 68
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 375
+    :errors: 21
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 256
+    :errors: 24
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 128
+    :errors: 11
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 627
+    :errors: 52
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 902
+    :errors: 86
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 839
+    :errors: 48
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 657
+    :errors: 65
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 1001
+    :errors: 67
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 366
+    :errors: 31
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 358
+    :errors: 25
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 288
+    :errors: 18
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 528
+    :errors: 34
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 713
+    :errors: 62
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 307
+    :errors: 20
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 929
+    :errors: 81
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 209
+    :errors: 26
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 774
+    :errors: 62
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 829
+    :errors: 69
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 712
+    :errors: 73
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 790
+    :errors: 83
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 144
+    :errors: 10
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 183
+    :errors: 15
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 312
+    :errors: 28
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 604
+    :errors: 60
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 16
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 690
+    :errors: 50
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 98
+    :errors: 9
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 80
+    :errors: 8
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 859
+    :errors: 61
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 45
+    :errors: 4
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 776
+    :errors: 64
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 520
+    :errors: 41
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 281
+    :errors: 12
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 912
+    :errors: 73
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 0
+    :errors: 0
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 759
+    :errors: 59
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 822
+    :errors: 66
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 271
+    :errors: 21
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 761
+    :errors: 68
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 482
+    :errors: 39
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 452
+    :errors: 51
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 259
+    :errors: 20
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 401
+    :errors: 39
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 229
+    :errors: 15
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 517
+    :errors: 47
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 200
+    :errors: 18
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 191
+    :errors: 10
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 332
+    :errors: 29
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 175
+    :errors: 11
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 168
+    :errors: 9
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 911
+    :errors: 59
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 197
+    :errors: 22
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 167
+    :errors: 16
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 18
+    :errors: 0
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 666
+    :errors: 40
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 935
+    :errors: 84
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 971
+    :errors: 93
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 825
+    :errors: 66
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 929
+    :errors: 74
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 594
+    :errors: 33
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 746
+    :errors: 74
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 632
+    :errors: 42
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 694
+    :errors: 36
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 708
+    :errors: 59
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 746
+    :errors: 67
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 640
+    :errors: 49
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 651
+    :errors: 65
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 459
+    :errors: 23
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 597
+    :errors: 59
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 636
+    :errors: 51
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 600
+    :errors: 35
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 553
+    :errors: 52
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 453
+    :errors: 32
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 543
+    :errors: 56
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 473
+    :errors: 35
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 332
+    :errors: 22
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 455
+    :errors: 47
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 409
+    :errors: 49
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 318
+    :errors: 24
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 302
+    :errors: 17
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 286
+    :errors: 23
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 237
+    :errors: 13
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 286
+    :errors: 18
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 210
+    :errors: 14
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 173
+    :errors: 13
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 214
+    :errors: 15
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 160
+    :errors: 8
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 189
+    :errors: 19
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 199
+    :errors: 22
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 133
+    :errors: 8
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 162
+    :errors: 11
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 136
+    :errors: 11
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 126
+    :errors: 15
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 96
+    :errors: 7
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 60
+    :errors: 8
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 27
+    :errors: 0
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 28
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 9
+    :errors: 0
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+...
+--- 
+:temperature: 0.427
+:max_population: 100
+:current_population: 99
+:organisms: 
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 555
+    :errors: 48
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 894
+    :errors: 87
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 8
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 384
+    :errors: 36
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 878
+    :errors: 82
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 560
+    :errors: 51
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 470
+    :errors: 34
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 268
+    :errors: 22
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 265
+    :errors: 20
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 514
+    :errors: 58
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 340
+    :errors: 25
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 667
+    :errors: 56
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 72
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 922
+    :errors: 76
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 27
+    :errors: 4
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 813
+    :errors: 61
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 517
+    :errors: 43
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 722
+    :errors: 67
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 835
+    :errors: 49
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 659
+    :errors: 56
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 363
+    :errors: 26
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 13
+    :errors: 0
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 303
+    :errors: 29
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 524
+    :errors: 54
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 516
+    :errors: 55
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 418
+    :errors: 27
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 866
+    :errors: 55
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 36
+    :errors: 5
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 0
+    :errors: 0
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 1009
+    :errors: 98
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 906
+    :errors: 75
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 90
+    :errors: 11
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 69
+    :errors: 10
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 375
+    :errors: 29
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 549
+    :errors: 38
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 678
+    :errors: 66
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 475
+    :errors: 35
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 845
+    :errors: 74
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 612
+    :errors: 54
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 430
+    :errors: 32
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 208
+    :errors: 10
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 511
+    :errors: 38
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 318
+    :errors: 21
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 445
+    :errors: 33
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 435
+    :errors: 46
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 136
+    :errors: 10
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 1004
+    :errors: 60
+  :polymerase: 
+    :status: :finished
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 991
+    :errors: 60
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 884
+    :errors: 54
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 81
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 155
+    :errors: 8
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 158
+    :errors: 15
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 1008
+    :errors: 100
+  :polymerase: 
+    :status: :finished
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 1003
+    :errors: 89
+  :polymerase: 
+    :status: :finished
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 999
+    :errors: 70
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 914
+    :errors: 91
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 811
+    :errors: 56
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 801
+    :errors: 58
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 861
+    :errors: 89
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 650
+    :errors: 31
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 760
+    :errors: 78
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 739
+    :errors: 70
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 515
+    :errors: 33
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 356
+    :errors: 17
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 542
+    :errors: 42
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 659
+    :errors: 57
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 448
+    :errors: 29
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 496
+    :errors: 36
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 425
+    :errors: 28
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 574
+    :errors: 50
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 431
+    :errors: 34
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 487
+    :errors: 42
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 480
+    :errors: 40
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 472
+    :errors: 43
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 421
+    :errors: 43
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 414
+    :errors: 24
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 500
+    :errors: 40
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 498
+    :errors: 60
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 427
+    :errors: 42
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 419
+    :errors: 40
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 341
+    :errors: 25
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 366
+    :errors: 35
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 233
+    :errors: 16
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 257
+    :errors: 15
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 247
+    :errors: 14
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 247
+    :errors: 19
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 125
+    :errors: 11
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 144
+    :errors: 6
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 153
+    :errors: 9
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 159
+    :errors: 22
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 81
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 90
+    :errors: 10
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 100
+    :errors: 10
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 72
+    :errors: 6
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 40
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 40
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 24
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 14
+    :errors: 0
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 8
+    :errors: 0
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+...
+--- 
+:temperature: 0.427
+:max_population: 100
+:current_population: 96
+:organisms: 
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 182
+    :errors: 17
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 376
+    :errors: 19
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 333
+    :errors: 41
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 733
+    :errors: 47
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 208
+    :errors: 13
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 999
+    :errors: 115
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 236
+    :errors: 20
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 669
+    :errors: 57
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 110
+    :errors: 12
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 464
+    :errors: 39
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 257
+    :errors: 13
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 340
+    :errors: 34
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 963
+    :errors: 82
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 531
+    :errors: 49
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 53
+    :errors: 4
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 959
+    :errors: 81
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 496
+    :errors: 35
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 724
+    :errors: 77
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 600
+    :errors: 47
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 633
+    :errors: 47
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 308
+    :errors: 27
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 528
+    :errors: 40
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 88
+    :errors: 5
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 863
+    :errors: 57
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 620
+    :errors: 58
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 552
+    :errors: 62
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 801
+    :errors: 50
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 748
+    :errors: 46
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 864
+    :errors: 72
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 160
+    :errors: 8
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 593
+    :errors: 36
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 50
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 928
+    :errors: 75
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 788
+    :errors: 52
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 771
+    :errors: 69
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 750
+    :errors: 67
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 713
+    :errors: 71
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 697
+    :errors: 64
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 817
+    :errors: 78
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 196
+    :errors: 21
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 374
+    :errors: 29
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 474
+    :errors: 40
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 138
+    :errors: 7
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 74
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 927
+    :errors: 60
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 270
+    :errors: 20
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 259
+    :errors: 27
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 867
+    :errors: 54
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 71
+    :errors: 4
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 839
+    :errors: 46
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 921
+    :errors: 77
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 684
+    :errors: 35
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 641
+    :errors: 33
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 850
+    :errors: 68
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 629
+    :errors: 46
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 10
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 872
+    :errors: 72
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 866
+    :errors: 73
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 915
+    :errors: 95
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 712
+    :errors: 54
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 707
+    :errors: 56
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 862
+    :errors: 85
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 511
+    :errors: 36
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 847
+    :errors: 78
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 782
+    :errors: 65
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 653
+    :errors: 46
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 642
+    :errors: 45
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 706
+    :errors: 61
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 627
+    :errors: 58
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 462
+    :errors: 23
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 755
+    :errors: 86
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 564
+    :errors: 57
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 444
+    :errors: 27
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 572
+    :errors: 50
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 564
+    :errors: 47
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 596
+    :errors: 51
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 508
+    :errors: 45
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 540
+    :errors: 57
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 422
+    :errors: 28
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 298
+    :errors: 16
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 429
+    :errors: 43
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 311
+    :errors: 20
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 132
+    :errors: 5
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 4
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 185
+    :errors: 13
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 241
+    :errors: 20
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 226
+    :errors: 17
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 241
+    :errors: 16
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 167
+    :errors: 18
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 103
+    :errors: 4
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 139
+    :errors: 13
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 98
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 71
+    :errors: 8
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 43
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 4
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 72
+    :errors: 7
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 70
+    :errors: 4
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 18
+    :errors: 4
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+...
+--- 
+:temperature: 0.427
+:max_population: 100
+:current_population: 99
+:organisms: 
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 302
+    :errors: 26
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 889
+    :errors: 60
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 531
+    :errors: 31
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 194
+    :errors: 13
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 874
+    :errors: 77
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 386
+    :errors: 24
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 716
+    :errors: 53
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 162
+    :errors: 12
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 722
+    :errors: 47
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 262
+    :errors: 19
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 668
+    :errors: 50
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 24
+    :errors: 0
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 996
+    :errors: 82
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 652
+    :errors: 61
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 165
+    :errors: 12
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 852
+    :errors: 74
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 8
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 837
+    :errors: 73
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 711
+    :errors: 65
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 676
+    :errors: 49
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 151
+    :errors: 17
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 52
+    :errors: 8
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 885
+    :errors: 76
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 0
+    :errors: 0
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 788
+    :errors: 78
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 902
+    :errors: 72
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 1007
+    :errors: 59
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 500
+    :errors: 38
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 40
+    :errors: 4
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 224
+    :errors: 16
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 937
+    :errors: 47
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 4
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 278
+    :errors: 23
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 458
+    :errors: 27
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 777
+    :errors: 70
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 714
+    :errors: 55
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 126
+    :errors: 7
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 654
+    :errors: 60
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 429
+    :errors: 26
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 18
+    :errors: 0
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 321
+    :errors: 26
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 343
+    :errors: 32
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 98
+    :errors: 7
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 1007
+    :errors: 61
+  :polymerase: 
+    :status: :finished
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 868
+    :errors: 69
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 132
+    :errors: 6
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 907
+    :errors: 63
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 1002
+    :errors: 78
+  :polymerase: 
+    :status: :finished
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 117
+    :errors: 12
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 107
+    :errors: 8
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 97
+    :errors: 7
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 207
+    :errors: 15
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 833
+    :errors: 69
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 100
+    :errors: 10
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 938
+    :errors: 64
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 822
+    :errors: 70
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 621
+    :errors: 39
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 992
+    :errors: 99
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 775
+    :errors: 55
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 947
+    :errors: 98
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 819
+    :errors: 68
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 881
+    :errors: 104
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 757
+    :errors: 66
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 580
+    :errors: 40
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 639
+    :errors: 48
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 464
+    :errors: 20
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 613
+    :errors: 56
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 732
+    :errors: 76
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 395
+    :errors: 29
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 489
+    :errors: 36
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 564
+    :errors: 54
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 490
+    :errors: 43
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 332
+    :errors: 20
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 414
+    :errors: 27
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 354
+    :errors: 28
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 388
+    :errors: 38
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 286
+    :errors: 13
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 236
+    :errors: 15
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 204
+    :errors: 14
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 228
+    :errors: 13
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 256
+    :errors: 22
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 254
+    :errors: 22
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 225
+    :errors: 17
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 198
+    :errors: 15
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 210
+    :errors: 19
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 98
+    :errors: 5
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 189
+    :errors: 18
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 180
+    :errors: 17
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 135
+    :errors: 9
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 8
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 160
+    :errors: 14
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 90
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 6
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 137
+    :errors: 10
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 129
+    :errors: 22
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 118
+    :errors: 17
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 68
+    :errors: 3
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 10
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 54
+    :errors: 5
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 35
+    :errors: 4
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 20
+    :errors: 0
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :forward
+    :rate: 5
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 14
+    :errors: 2
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 7
+- :genome: 
+    :length: 1000
+    :added_nucleotides: 9
+    :errors: 1
+  :polymerase: 
+    :status: :polymerizing
+    :directionality: :reverse
+    :rate: 9
+...
