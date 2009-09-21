@@ -30,13 +30,16 @@ class Polymerase
       return
     end
     @rate.times do
-      deact_prob = Math::E**(-2.0 / @temperature)
-      if (@directionality == :forward) && (rand < deact_prob)
+      thermal_prob = Math::E**(-1.0 / @temperature)
+      if ((@directionality == :forward) &&
+         (rand < thermal_prob**2))
         next
-      elsif (@directionality == :reverse) && (rand < (deact_prob * (MAX_POLY_RATE - @rate + 1)))
+      elsif ((@directionality == :reverse) &&
+             (rand < (thermal_prob**2 * (MAX_POLY_RATE - @rate + 1))))
         return
       else
-        @genome.add_nucleotide(rand < (Math::E**(-1.0 / @temperature) * @rate))
+        rate_factor = (@rate / ((MAX_POLY_RATE + MIN_POLY_RATE) / 2.0))**2
+        @genome.add_nucleotide(rand < (thermal_prob * rate_factor))
       end
     end
   end

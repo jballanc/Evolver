@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby1.9
+#
+# Copyright (c) 2009 Joshua Ballanco
+#
+# average_runs - This is a utility designed to take a series of output files
+# in directories labeled as run# (where # is any integer) and average the
+# results at each time point. If there is a mismatch in run file length, then
+# the missing rows are assumed to be all zero.
+
+
+
+# vim:sw=2 ts=2 tw=78:wrap ft=ruby

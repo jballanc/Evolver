@@ -42,8 +42,7 @@ class Environment
     # Populate the environment
     genomes_for_environment.each do |genome_for_species|
       (starting_population * genome_for_species.population_frequency)
-      .round
-      .times do
+      .round.times do
         @organisms << Organism.new(genome_for_species.genome.dup, self)
       end
     end
@@ -73,15 +72,20 @@ class Environment
       @organisms.threadify(@num_threads) do |organism|
         organism.step
       end
-    else
+    elsif RUBY_ENGINE =~ /macruby/
       @organisms.each do |organism|
-        organism.step
+        group = Dispatch::Group.new
+        group.dispatch(Dispatch::Queue.concurrent) do
+          organism.step
+        end
       end
+      group.wait
+    else
+      @organisms.each(&:step)
     end
 
     # This is the probability that 1 organism will die
-    death_expect = 1.0 / ((@max_population - @organisms.length) + 1)
-    if rand < death_expect
+    while (rand < (1.0 / ((@max_population - @organisms.length) + 1)))
       @organisms.delete_at(rand(@organisms.length))
     end
   end
