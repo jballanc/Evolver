@@ -38,8 +38,7 @@ class Polymerase
              (rand < (thermal_prob**2 * (MAX_POLY_RATE - @rate + 1))))
         return
       else
-        rate_factor = (@rate / ((MAX_POLY_RATE + MIN_POLY_RATE) / 2.0))**2
-        @genome.add_nucleotide(rand < (thermal_prob * rate_factor))
+        @genome.add_nucleotide(rand < (thermal_prob * Math.sqrt(@rate)))
       end
     end
   end
