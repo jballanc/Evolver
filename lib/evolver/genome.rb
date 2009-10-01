@@ -29,7 +29,7 @@ class Genome
     low_dev = @polymerase_rate - MIN_POLY_RATE
     max_dev = (MAX_POLY_RATE - MIN_POLY_RATE) / 2.0
     mut_frac = (@errors / @length.to_f) / MAX_TOL_MUT_RATE
-    change_in_rate = (mut_frac * mut_frac).round
+    change_in_rate = (mut_frac * max_dev).round
 
     if change_in_rate > high_dev
       @polymerase_rate -= change_in_rate
