@@ -1,0 +1,180 @@
+- :name: scale_num_100
+  :temperature: 0.40
+  :max_population: 100
+  :starting_population: 10
+  :genomes:
+    - :length: 1000
+      :polymerase_rate: 1
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 2
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 3
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 4
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 5
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 6
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 7
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 8
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 9
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 10
+      :directionality: :forward
+      :freq: 0.1
+- :name: scale_num_1000
+  :temperature: 0.40
+  :max_population: 1000
+  :starting_population: 10
+  :genomes:
+    - :length: 1000
+      :polymerase_rate: 1
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 2
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 3
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 4
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 5
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 6
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 7
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 8
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 9
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 10
+      :directionality: :forward
+      :freq: 0.1
+- :name: scale_num_10000
+  :temperature: 0.40
+  :max_population: 10000
+  :starting_population: 10
+  :genomes:
+    - :length: 1000
+      :polymerase_rate: 1
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 2
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 3
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 4
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 5
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 6
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 7
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 8
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 9
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 10
+      :directionality: :forward
+      :freq: 0.1
+- :name: scale_num_100000
+  :temperature: 0.40
+  :max_population: 100000
+  :starting_population: 10
+  :genomes:
+    - :length: 1000
+      :polymerase_rate: 1
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 2
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 3
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 4
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 5
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 6
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 7
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 8
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 9
+      :directionality: :forward
+      :freq: 0.1
+    - :length: 1000
+      :polymerase_rate: 10
+      :directionality: :forward
+      :freq: 0.1

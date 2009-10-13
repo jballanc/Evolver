@@ -25,11 +25,11 @@ class Environment
                  *genomes_for_environment)
 
     # Some simple sanity checks on passed in arguments
-    unless genomes_for_environment.inject(0) {|total, gfe|
-      Rational(total + Rational(gfe.population_frequency))
-    } == 1.0
-      raise ArgumentError, "population frequencies of genomes must total 1"
-    end
+    #unless genomes_for_environment.inject(0) {|total, gfe|
+    #  Rational(total + Rational(gfe.population_frequency))
+    #} == 1.0
+    #  raise ArgumentError, "population frequencies of genomes must total 1"
+    #end
     if starting_population > max_population
       raise ArgumentError, "The starting population must be less than the
                             maximum population"
