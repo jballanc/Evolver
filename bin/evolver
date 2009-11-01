@@ -1,15 +1,18 @@
 #!/usr/bin/env ruby1.9
-# 
+#
 # Copyright (c) 2009 Joshua Ballanco
 #
-# evolver - This is the command line utility to manipulate the Evolver toy
-# model.
+# evolver - This is the command line utility to manipulate the Evolver model.
 
 $LOAD_PATH << File.join(File.dirname(__FILE__), '..', 'lib')
 
 require "optparse"
 require "yaml"
-require "evolver"
+require "evolver/constants"
+require "evolver/organism"
+require "evolver/environment"
+require "evolver/genome"
+require "evolver/polymerase"
 
 options = {}
 OptionParser.new do |opts|
@@ -81,7 +84,7 @@ def run(options, environment)
   end
   env.run(options[:iterations] - @iterations_complete)
   report(environment[:name], env, false, *options[:report_values])
-end 
+end
 
 def report(name, env, print_header, *report_values)
   File.open(name + '_out.csv', 'a') do |outfile|
@@ -94,6 +97,7 @@ def report(name, env, print_header, *report_values)
   end
 end
 
+# Methods for reporting simulation parameters:
 def report_forward_num(env_report)
   env_report[:organisms].inject(0) do |total, org|
     total + (org[:polymerase][:directionality] == :forward ? 1 : 0)
@@ -104,7 +108,7 @@ def report_reverse_num(env_report)
   env_report[:organisms].inject(0) do |total, org|
     total + (org[:polymerase][:directionality] == :reverse ? 1 : 0)
   end
-end 
+end
 
 def report_forward_rate(env_report)
   env_report[:organisms].inject(0.0) do |total, org|
@@ -130,9 +134,10 @@ def report_organism_rate(env_report)
   end / env_report[:current_population]
 end
 
+# After parsing the options, the only remaining argument should be the
+# environment specification file. Load this and run the simulation for each
+# environment described:
 environments = YAML::load_file(ARGV[0])
 environments.each do |environment|
   run(options, environment)
 end
-
-# vim:sw=2 ts=2 tw=78:wrap ft=ruby

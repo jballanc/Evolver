@@ -13,6 +13,8 @@
 class Polymerase
   attr_reader :status
 
+  # The polymerase is created for a genome, and must specify a directionality,
+  # polymerization rate, and simulation temperature when it is created.
   def initialize(genome, directionality, rate, temperature)
     @status = :polymerizing
     @genome = genome
@@ -24,11 +26,18 @@ class Polymerase
     @temperature = temperature
   end
 
+  # This method adds a nucleotide to the genome. First, the polymerase checks
+  # to see if the genome is already finished being replicated. If not, then it
+  # will add a number of nucleotides up to the rate of this polymerase. When
+  # adding nucleotides, there is the chance that the nucleotide being added
+  # has become dephosphorylated. There is also a chance, dependent on the
+  # temperature and polymerase rate, that an error is made during replication.
   def add_nucleotides
     if @genome.added_nucleotides > @genome.length
       @status = :finished
       return
     end
+
     @rate.times do
       thermal_prob = Math::E**(-1.0 / @temperature)
       if ((@directionality == :forward) &&
@@ -67,5 +76,3 @@ class Polymerase
       :rate => @rate }
   end
 end
-
-# vim:sw=2 ts=2 tw=78:wrap
