@@ -47,18 +47,18 @@ class Organism
   end
 
   # In order to divide, we first extract the new genome. If the new genome has
-  # too many errors, then we reset and try again. Then, we create a new organism
-  # from the genome and attempt to insert it into the environment. If there is
-  # no room, we keep trying until there is (or we are randomly killed). Once
-  # we've put the new organism in the environment, reset and start replicating
-  # again.
+  # too many errors, then we reset and try again. Otherwise, we create a new
+  # organism from the genome and attempt to insert the new organism into the
+  # environment. If there is no room, we keep trying until there is (or we are
+  # randomly killed). Once we've put the new organism in the environment,
+  # reset and start replicating again.
   def divide
     @new_genome ||= @polymerase.new_finished_genome
     unless @new_genome
       @polymerase.reset
       return method(:replicate_genome).to_proc
     end
-    
+
     @new_organism ||= Organism.new(@new_genome, @environment)
     if @environment.add_organism(@new_organism)
       @new_genome = nil
@@ -77,5 +77,3 @@ class Organism
       :polymerase => @polymerase.report }
   end
 end
-
-# vim:sw=2 ts=2 tw=78:wrap

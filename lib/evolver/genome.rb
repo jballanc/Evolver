@@ -23,7 +23,7 @@ class Genome
 
   # This method gets called during a Genome#dup. The length of the original is
   # left unchanged, but the properties of the polymerase generated are
-  # recalculated based on how much mutation there was during replication.
+  # recalculated based on how many mutations occurred during replication.
   def initialize_copy(orig)
     high_dev = MAX_POLY_RATE - @polymerase_rate
     low_dev = @polymerase_rate - MIN_POLY_RATE
@@ -40,7 +40,7 @@ class Genome
     else
       @polymerase_rate += change_in_rate
     end
-    
+
     if (@polymerase_rate > MAX_POLY_RATE || @polymerase_rate < MIN_POLY_RATE)
       raise RuntimeError, "Polymerase Rate out of Bounds"
     end
@@ -49,13 +49,13 @@ class Genome
     self.reset
   end
 
-  # Start over replicating the genome (i.e. if an unviable copy was made and
+  # Start over replicating the genome (e.g. if an unviable copy was made and
   # discarded).
   def reset
     @added_nucleotides = 0
     @errors = 0
   end
-  
+
   # Add a new nucleotide to the genome replica. If there was an erroneous
   # inclusion, add to the number of errors as well.
   def add_nucleotide(error = false)
@@ -69,8 +69,10 @@ class Genome
     Polymerase.new(self, @directionality, @polymerase_rate, temperature)
   end
 
-  # The organism can tolerate up to 1/3 of its nucleotides being mutated. It
-  # would also not be viable if it wasn't finished being duplicated.
+  # This method returns the viability of the replica genome being created. The
+  # organism can tolerate up to MAX_TOL_MUT_RATE of its nucleotides being
+  # mutated. It would also not be viable if it wasn't finished being
+  # duplicated.
   def viable?
     if @added_nucleotides >= @length && @errors < (MAX_TOL_MUT_RATE * @length)
       true
@@ -86,5 +88,3 @@ class Genome
       :errors => @errors }
   end
 end
-
-# vim:sw=2 ts=2 tw=78:wrap
