@@ -87,7 +87,6 @@ class Environment
     { :temperature => @temperature,
       :max_population => @max_population,
       :current_population => @organisms.length,
-      :organisms => @organisms.collect{|organism| organism.report}
-    }
+      :organisms => @organisms.collect{|organism| organism.report} }
   end
 end

@@ -58,7 +58,8 @@ def run(options, environment)
   genomes_for_env = environment[:genomes].collect do |genome|
     GenomeForSpecies.new(Genome.new(genome[:length],
                                     genome[:polymerase_rate],
-                                    genome[:directionality]),
+                                    genome[:directionality],
+                                    genome[:mutable_polymerase]),
                          genome[:freq])
   end
   env = Environment.new(environment[:temperature],

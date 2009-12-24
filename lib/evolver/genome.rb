@@ -13,10 +13,11 @@ class Genome
 
   # Initialization requires the length of the genome as well as the rate and
   # directionality of the polymerase coded for by the genome.
-  def initialize(length, polymerase_rate, directionality)
+  def initialize(length, polymerase_rate, directionality, mutable = true)
     @length = length
     @polymerase_rate = polymerase_rate
     @directionality = directionality
+    @mutable = mutable
     @added_nucleotides = 0
     @errors = 0
   end
@@ -25,20 +26,23 @@ class Genome
   # left unchanged, but the properties of the polymerase generated are
   # recalculated based on how many mutations occurred during replication.
   def initialize_copy(orig)
-    high_dev = MAX_POLY_RATE - @polymerase_rate
-    low_dev = @polymerase_rate - MIN_POLY_RATE
-    max_dev = (MAX_POLY_RATE - MIN_POLY_RATE) / 2.0
-    mut_frac = (@errors / @length.to_f) / MAX_TOL_MUT_RATE
-    change_in_rate = (mut_frac * max_dev).round
+    if @mutable
+      high_dev = MAX_POLY_RATE - @polymerase_rate
+      low_dev = @polymerase_rate - MIN_POLY_RATE
+      max_dev = (MAX_POLY_RATE - MIN_POLY_RATE) / 2.0
+      mut_frac = (@errors / @length.to_f) / MAX_TOL_MUT_RATE
+      mut_frac = mut_frac > 1 ? 1 : mut_frac
+      change_in_rate = (mut_frac * max_dev).round
 
-    if change_in_rate > high_dev
-      @polymerase_rate -= change_in_rate
-    elsif change_in_rate > low_dev
-      @polymerase_rate += change_in_rate
-    elsif rand(2) == 0
-      @polymerase_rate -= change_in_rate
-    else
-      @polymerase_rate += change_in_rate
+      if change_in_rate > high_dev
+        @polymerase_rate -= change_in_rate
+      elsif change_in_rate > low_dev
+        @polymerase_rate += change_in_rate
+      elsif rand(2) == 0
+        @polymerase_rate -= change_in_rate
+      else
+        @polymerase_rate += change_in_rate
+      end
     end
 
     if (@polymerase_rate > MAX_POLY_RATE || @polymerase_rate < MIN_POLY_RATE)
@@ -74,7 +78,7 @@ class Genome
   # mutated. It would also not be viable if it wasn't finished being
   # duplicated.
   def viable?
-    if @added_nucleotides >= @length && @errors < (MAX_TOL_MUT_RATE * @length)
+    if @added_nucleotides >= @length
       true
     else
       false
