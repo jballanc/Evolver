@@ -9,7 +9,8 @@
 # generate a polymerase or a copy of itself.
 
 class Genome
-  attr_reader :length, :added_nucleotides, :errors
+  attr_reader :length, :errors
+  attr_accessor :added_nucleotides
 
   # Initialization requires the length of the genome as well as the rate and
   # directionality of the polymerase coded for by the genome.

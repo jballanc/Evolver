@@ -43,7 +43,9 @@ class Environment
     genomes_for_environment.each do |genome_for_species|
       (starting_population * genome_for_species.population_frequency)
       .round.times do
-        @organisms << Organism.new(genome_for_species.genome.dup, self)
+        genome = genome_for_species.genome.dup
+        genome.added_nucleotides = rand(genome.length)
+        @organisms << Organism.new(genome, self)
       end
     end
   end
