@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby1.9
+#!/usr/bin/env ruby
 #
 # Copyright (c) 2009 Joshua Ballanco
 #
@@ -58,7 +58,7 @@ in_sets.keys.each do |filename|
       head += '_' + File.basename(filename, '_out.csv')
     }.join(',')
   end
-  
+
   out_streams[filename] = header + "\n"
 
   until(read_files.inject(false) { |eof, file| eof || file.eof? }) do
@@ -74,7 +74,7 @@ in_sets.keys.each do |filename|
     avgs = sums.map {|e| e / read_files.length}
     out_streams[filename] << avgs.join(',') << "\n"
   end
-  
+
   read_files.each(&:close)
 end
 

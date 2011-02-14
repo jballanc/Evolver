@@ -1,6 +1,6 @@
-#!/usr/bin/env ruby1.9
+#!/usr/bin/env ruby
 #
-# Copyright (c) 2009 Joshua Ballanco
+# Copyright (c) 2009-2011 Joshua Ballanco
 #
 # evolver - This is the command line utility to manipulate the Evolver model.
 
@@ -47,7 +47,8 @@ OptionParser.new do |opts|
                                 forward_rate
                                 reverse_rate
                                 organism_num
-                                organism_rate )
+                                organism_rate
+                                mutation_rate )
   opts.on("-r [Value1,Value2,Value3]", Array,
           "Values to report") do |values|
     options[:report_values] = values
@@ -132,6 +133,12 @@ end
 def report_organism_rate(env_report)
   env_report[:organisms].inject(0.0) do |total, org|
     total + org[:polymerase][:rate]
+  end / env_report[:current_population]
+end
+
+def report_mutation_rate(env_report)
+  env_report[:organisms].inject(0.0) do |total, org|
+    total + org[:genome][:change_in_rate]
   end / env_report[:current_population]
 end
 

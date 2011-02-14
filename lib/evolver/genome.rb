@@ -1,4 +1,4 @@
-# Copyright (c) 2009 Joshua Ballanco
+# Copyright (c) 2009-2011 Joshua Ballanco
 #
 # class Genome
 #
@@ -33,16 +33,16 @@ class Genome
       max_dev = (MAX_POLY_RATE - MIN_POLY_RATE) / 2.0
       mut_frac = (@errors / @length.to_f) / MAX_TOL_MUT_RATE
       mut_frac = mut_frac > 1 ? 1 : mut_frac
-      change_in_rate = (mut_frac * max_dev).round
+      @change_in_rate = (mut_frac * max_dev).round
 
-      if change_in_rate > high_dev
-        @polymerase_rate -= change_in_rate
-      elsif change_in_rate > low_dev
-        @polymerase_rate += change_in_rate
+      if @change_in_rate > high_dev
+        @polymerase_rate -= @change_in_rate
+      elsif @change_in_rate > low_dev
+        @polymerase_rate += @change_in_rate
       elsif rand(2) == 0
-        @polymerase_rate -= change_in_rate
+        @polymerase_rate -= @change_in_rate
       else
-        @polymerase_rate += change_in_rate
+        @polymerase_rate += @change_in_rate
       end
     end
 
@@ -89,6 +89,7 @@ class Genome
   # The report method returns a hash of properties about the genome
   def report
     { :length => @length,
+      :change_in_rate => @change_in_rate,
       :added_nucleotides => @added_nucleotides,
       :errors => @errors }
   end
