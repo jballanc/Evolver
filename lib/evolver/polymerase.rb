@@ -1,4 +1,4 @@
-# Copyright (c) 2009 Joshua Ballanco
+# Copyright (c) 2009-2010 Joshua Ballanco
 #
 # class Polymerase
 #

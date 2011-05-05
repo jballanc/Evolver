@@ -75,9 +75,8 @@ class Genome
   end
 
   # This method returns the viability of the replica genome being created. The
-  # organism can tolerate up to MAX_TOL_MUT_RATE of its nucleotides being
-  # mutated. It would also not be viable if it wasn't finished being
-  # duplicated.
+  # genome is considered viable so long as the number of nucleotides added
+  # meets or exceeds the length of the genome.
   def viable?
     if @added_nucleotides >= @length
       true
