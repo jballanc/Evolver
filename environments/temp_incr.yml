@@ -1,0 +1,32 @@
+- name: temp_incr_mut_forward
+  temperatures: [0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40, 0.45, 0.50, 0.55, 0.60]
+  max_population: 1000
+  starting_population: 10
+  genome_lengths: 1000
+  polymerase_rates: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  directionalities: :forward
+  mutable_polymerases: true
+- name: temp_incr_mut_reverse
+  temperatures: [0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40, 0.45, 0.50, 0.55, 0.60]
+  max_population: 1000
+  starting_population: 10
+  genome_lengths: 1000
+  polymerase_rates: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  directionalities: :reverse
+  mutable_polymerases: true
+- name: temp_incr_nomut_forward
+  temperatures: [0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40, 0.45, 0.50, 0.55, 0.60]
+  max_population: 1000
+  starting_population: 10
+  genome_lengths: 1000
+  polymerase_rates: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  directionalities: :forward
+  mutable_polymerases: false
+- name: temp_incr_nomut_reverse
+  temperatures: [0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40, 0.45, 0.50, 0.55, 0.60]
+  max_population: 1000
+  starting_population: 10
+  genome_lengths: 1000
+  polymerase_rates: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  directionalities: :reverse
+  mutable_polymerases: false
