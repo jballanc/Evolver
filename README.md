@@ -1,6 +1,8 @@
 Evolver - A DNA Polymerase Toy Model
 ====================================
 
+[![Project Status: Inactive – The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.](http://www.repostatus.org/badges/latest/inactive.svg)](http://www.repostatus.org/#inactive)
+
 Introduction
 ------------
 Well, the title really says it all. This is the GitHub project corresponding to my work on a DNA Polymerase toy model. As this work is part of my on-going thesis research, I probably won't have much more to say about this until that is finished.
